@@ -1,3 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom medical UI tweaks */
+.card-glow { box-shadow: 0 10px 25px rgba(59, 130, 246, 0.1); }
+.badge-deficiency { @apply bg-red-100 text-red-800 border-red-200; }
+
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;

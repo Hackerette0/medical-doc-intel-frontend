@@ -21,11 +21,49 @@ React/Vite UI for uploading medical PDFs, viewing analysis (5 points + tags), an
 - Lucide React (icons)
 - File-saver (PDF downloads)
 
+## Project Structure
+
+The frontend is organized for easy maintenance, with core UI logic in `App.tsx` and reusable components for upload/results.
+medical-doc-intel-frontend/
+├── src/
+│   ├── App.tsx             
+│   ├── components/         
+│   │   ├── UploadSection.tsx  
+│   │   └── ResultsSection.tsx 
+│   ├── types.ts            
+│   ├── index.css           
+│   └── main.tsx            
+├── public/                 
+├── images/                 
+├── tailwind.config.js      
+├── vite.config.ts          
+├── package.json            
+└── README.md               
+
 ## Setup
 1. **Clone Repo**:
    ```bash
    git clone https://github.com/YOUR-USERNAME/medical-doc-intel-frontend.git
    cd medical-doc-intel-frontend
+   ```
+2. install Deps
+3. Run Dev Server\
+   ```bash
+   npm run dev
+   ```
+   Open http://localhost:5173.
+
+## Required Packages
+Install all dependencies via npm (includes React, Tailwind, Axios, animations).
+
+```bash
+npm install axios lucide-react @headlessui/react framer-motion
+npm install -D tailwindcss-animate
+npx shadcn@latest init  
+npx shadcn@latest add button card badge progress dialog 
+```
+
+##Usage 
 
 ## Visual reference 
 ![Figure 1](https://github.com/Hackerette0/medical-doc-intel-frontend/blob/main/images/image-1.png) 

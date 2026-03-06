@@ -63,7 +63,6 @@ npx shadcn@latest init
 npx shadcn@latest add button card badge progress dialog 
 ```
 
-##Usage 
 
 ## Visual reference 
 ![Figure 1](https://github.com/Hackerette0/medical-doc-intel-frontend/blob/main/images/image-1.png) 

@@ -12,8 +12,6 @@ React/Vite UI for uploading medical PDFs, viewing analysis (5 points + tags), an
 - **Part 2**: Multi-upload (1-5 PDFs) → Per-file results → "Generate Summary" button → Download aggregated PDF.
 - **Features**: PDF preview modal, hover animations (Framer Motion), responsive Tailwind UI, file-saver for downloads.
 
-![Frontend UI](https://via.placeholder.com/800x400?text=Upload+PDF+%7C+Insights+Tags+%7C+Summary+Download) <!-- Add screenshot of upload/results -->
-
 ## Tech Stack
 - React 18 + Vite (fast build/dev)
 - Tailwind CSS (styling/animations)
@@ -28,3 +26,12 @@ React/Vite UI for uploading medical PDFs, viewing analysis (5 points + tags), an
    ```bash
    git clone https://github.com/YOUR-USERNAME/medical-doc-intel-frontend.git
    cd medical-doc-intel-frontend
+
+## Visual reference 
+![Figure 1](https://github.com/Hackerette0/medical-doc-intel-frontend/blob/main/images/image-1.png) 
+*Screenshot Reference: Frontend testing input*
+
+![Figure 2](https://github.com/Hackerette0/medical-doc-intel-frontend/blob/main/images/image-2.png) 
+
+![Figure 3](https://github.com/Hackerette0/medical-doc-intel-frontend/blob/main/images/image-3.png) 
+*Screenshot Reference: Frontend testing output*

@@ -3,7 +3,6 @@
 
 #### **Frontend Repo README.md** (`medical-doc-intel-frontend/README.md`)
 
-```markdown
 # Medical Document Intelligence Frontend
 
 React/Vite UI for uploading medical PDFs, viewing analysis (5 points + tags), and Part 2 aggregation (multi-upload + summary PDF download). Connects to backend at localhost:8000.
